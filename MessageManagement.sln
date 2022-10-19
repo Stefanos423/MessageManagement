@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageManagement", "MessageManagement\MessageManagement.csproj", "{01B26AFF-8368-4DAC-97FF-5E1469E6AF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageManagement.Tests.Unit", "MessageManagement.Tests.Unit\MessageManagement.Tests.Unit.csproj", "{BAD26D58-370A-4B79-B252-4E119BD89B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B26AFF-8368-4DAC-97FF-5E1469E6AF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B26AFF-8368-4DAC-97FF-5E1469E6AF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B26AFF-8368-4DAC-97FF-5E1469E6AF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B26AFF-8368-4DAC-97FF-5E1469E6AF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD26D58-370A-4B79-B252-4E119BD89B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD26D58-370A-4B79-B252-4E119BD89B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD26D58-370A-4B79-B252-4E119BD89B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD26D58-370A-4B79-B252-4E119BD89B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3164D65A-24EB-4711-8D45-72350A46DB24}
+	EndGlobalSection
+EndGlobal
