@@ -9,7 +9,17 @@ Key concepts: NET API, SOLID, HTTP/HTTPS, Repository Pattern, Request Validation
 
 Once the application is up and running, a Swagger page will automatically open.
 You can use the Swagger UI to easily perform requests and test the API.
-Alternatively, you may target the API on port 7155.
+Alternatively, you may target the API on port 7155 for https and port 5155 for http.
+
+```
+curl -X 'POST' \
+  'https://localhost:7155/Message' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "content": "Hello, World!"
+}'
+```
 
 ## Packages used
 * Swashbuckle.AspNetCore (for Swagger),
